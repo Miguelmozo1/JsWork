@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card {
+    width: 75%;
+    margin: 0px auto;
+    height: 550px;
+    font-size: 50px;
+}
+
+.header {
+    background-color: #14A2B8;
+    padding: 20px;
+}
+
+#profile-Pic {
+    height: 150px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.markers {
+    height: 25px;
+    margin-right: 5px;
+}
