@@ -1,0 +1,1 @@
+["sushi", "pizza", "burger"].each {|string| puts "#{string[0].upcase}#{string[1..-1]}"}
