@@ -1,0 +1,74 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-Nav {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.feed {
+    text-align: center;
+}
+
+.top-Nav, .feed, .row-Feed {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.top-Nav {
+    background-color: black;
+    color: white;
+}
+
+.row-Feed {
+    display: flex;
+}
+
+.col1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col2 {
+    flex: 2;
+}
+
+#my-Pic {
+    height: 150px;
+}
+
+.col1 {
+    border: 2px solid black;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+
+.def-Box {
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.def-Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.like-Btn {
+    margin-left: 15px;
+    width: 40px;
+    height: 25px;
+    background-color: #FFD866;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
