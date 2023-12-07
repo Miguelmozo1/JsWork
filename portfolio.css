@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#profPic {
+    width: 130px;
+    height: 140px;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 678px;
+    height: 800px;
+    justify-content: space-evenly;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.my-Links {
+    margin-right: 15px;
+}
+
+.contact-Me {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    margin-bottom: 10px;
+}
+
+.message {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+#req-Me {
+    height: 30px;
+}
+
+#send-M {
+    width: 130px;
+    padding: 3px;
+    box-shadow: 5px 5px black;
+}
