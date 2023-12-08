@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.reg {
+    border-bottom: 2px solid black;
+}
+.inputs, .reg {
+    padding: 20px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+}
+#conf-Reg {
+    width: 60px;
+}
+
